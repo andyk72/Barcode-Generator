@@ -4,8 +4,7 @@ html, body, .app {
 
 body {
     margin: 0;
-    /*background: rgb(204,204,204); */
-    background: red;
+    background: rgb(204,204,204); 
 }
 
 .app {}
