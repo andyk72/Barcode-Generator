@@ -1,0 +1,40 @@
+html, body, .app {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    /*background: rgb(204,204,204); */
+    background: red;
+}
+
+.app {}
+
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+
+.page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+.labels {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.label {
+    text-align: center;
+}
+
+.barcode {
+    max-width: 7cm;
+    max-height: 3.6cm;
+}
